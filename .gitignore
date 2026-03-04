@@ -1,0 +1,10 @@
+*.*swp
+node_modules
+lr 
+lr_dbg 
+lr.tab.c 
+lr.tab.h 
+slr.tab.h 
+lex.yy.c 
+lr.output
+

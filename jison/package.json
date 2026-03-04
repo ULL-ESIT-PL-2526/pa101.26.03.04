@@ -1,0 +1,22 @@
+{
+  "name": "arith-jison-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Calculadora aritmética con Jison",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "jison ./src/arith.jison -o ./src/parser.js",
+    "start": "npm run build && node ./src/index.js"
+  },
+  "keywords": ["ull", "jison", "parser", "arith-calculator"],
+  "bin": {
+    "arith": "./src/index.js"
+  },
+  "author": "Coromoto Leon",
+  "contributors": ["Casiano Rodriguez-Leon"],
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jison": "^0.4.18"
+  }
+}
