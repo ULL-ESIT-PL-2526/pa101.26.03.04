@@ -1,4 +1,4 @@
-# Automáta SLR
+# Automáta LR
 
 Al ejecutar `bison -v lr.y` se crea el fichero `lr.output` que contiene los estados del DFA.
 
